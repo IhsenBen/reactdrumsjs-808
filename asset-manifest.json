@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactdrumsjs-808/static/css/main.a11d70cf.chunk.css",
-    "main.js": "/reactdrumsjs-808/static/js/main.b411b0b6.chunk.js",
-    "main.js.map": "/reactdrumsjs-808/static/js/main.b411b0b6.chunk.js.map",
+    "main.js": "/reactdrumsjs-808/static/js/main.e7cd5cab.chunk.js",
+    "main.js.map": "/reactdrumsjs-808/static/js/main.e7cd5cab.chunk.js.map",
     "runtime-main.js": "/reactdrumsjs-808/static/js/runtime-main.1085ab07.js",
     "runtime-main.js.map": "/reactdrumsjs-808/static/js/runtime-main.1085ab07.js.map",
     "static/js/2.26861b8b.chunk.js": "/reactdrumsjs-808/static/js/2.26861b8b.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/reactdrumsjs-808/index.html",
     "static/css/main.a11d70cf.chunk.css.map": "/reactdrumsjs-808/static/css/main.a11d70cf.chunk.css.map",
     "static/js/2.26861b8b.chunk.js.LICENSE.txt": "/reactdrumsjs-808/static/js/2.26861b8b.chunk.js.LICENSE.txt",
+    "static/media/kick.72881f4b.mp3": "/reactdrumsjs-808/static/media/kick.72881f4b.mp3",
     "static/media/App.css": "/reactdrumsjs-808/static/media/tr-909.2e6f172a.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.1085ab07.js",
     "static/js/2.26861b8b.chunk.js",
     "static/css/main.a11d70cf.chunk.css",
-    "static/js/main.b411b0b6.chunk.js"
+    "static/js/main.e7cd5cab.chunk.js"
   ]
 }
