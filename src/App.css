@@ -1,6 +1,19 @@
 @font-face {
   font-family: "Roland";
   src: url("./fonts/tr-909.woff") format("woff");
+
+} 
+
+@font-face {
+  font-family: "DSEG14-Classic";
+  src: url("https://cdn.jsdelivr.net/npm/dseg@0.43.0/fonts/DSEG14-Classic/DSEG14Classic-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/npm/dseg@0.43.0/fonts/DSEG14-Classic/DSEG14Classic-Regular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/npm/dseg@0.43.0/fonts/DSEG14-Classic/DSEG14Classic-Regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .App {
@@ -14,21 +27,42 @@
 .title {
   color: #ff8c00;
   text-align: center;
-  font-family: Roland;
+  font-family: "Roland";
 }
 .display {
   background-color: #2a2720;
   border-radius: 4px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   display: flex;
+  
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
   width: 400px;
 }
 
-.box {
+.drum-pad {
   height: 100px;
   width: 100px;
+  font-size: 1.8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin: 10px;
   border: 2px solid black;
   border-radius: 8px;
 }
+
+.drum-display {
+  color: #fb7c00;
+  height: 50px;
+  width: 180px;
+  font-family: "DSEG14-Classic";
+  padding: 0.5em;
+  background-color: #161616;
+ 
+  transition-duration: 1s;
+}
+
