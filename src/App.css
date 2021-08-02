@@ -1,8 +1,7 @@
 @font-face {
   font-family: "Roland";
   src: url("./fonts/tr-909.woff") format("woff");
-
-} 
+}
 
 @font-face {
   font-family: "DSEG14-Classic";
@@ -24,17 +23,21 @@
   justify-content: center;
   height: 100vh;
 }
+.container {
+  background-color: #2a2720;
+}
 .title {
   color: #ff8c00;
   text-align: center;
   font-family: "Roland";
 }
-.display {
+
+.pads-container {
   background-color: #2a2720;
   border-radius: 4px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -50,19 +53,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-margin: 10px;
+  margin: 10px;
   border: 2px solid black;
   border-radius: 8px;
 }
 
-.drum-display {
+.display {
+  text-align: center;
   color: #fb7c00;
   height: 50px;
   width: 180px;
   font-family: "DSEG14-Classic";
   padding: 0.5em;
   background-color: #161616;
- 
+  font-size: 0.5em;
   transition-duration: 1s;
 }
-
