@@ -1,25 +1,26 @@
 import "../App.css";
-
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/themes/theme-red.css";
 import React from "react";
 
 export default class DrumPad extends React.Component {
-
-
-//pass the event listener to the e function
+  //pass the event listener to the e function
   componentDidMount() {
     document.addEventListener("keydown", this.handleKeydown);
+
     window.focus();
   }
-// close the event listener  
+  // close the event listener
   componentWillUnmount() {
     document.removeEventListener("keydown", this.handleKeydown);
   }
-// the above was like an open/close door to pass the key input ( not sure, but I think it's an outdated method)
+  // the above was like an open/close door to pass the key input ( not sure, but I think it's an outdated method)
 
   handleClick = () => {
     console.log(this.audio);
     this.audio.play();
     this.audio.currentTime = 0;
+
     this.props.handleDisplay(this.props.name);
   };
 
@@ -27,6 +28,8 @@ export default class DrumPad extends React.Component {
     if (e.keyCode === this.props.text.charCodeAt()) {
       this.audio.play();
       this.audio.currentTime = 0;
+      
+
       this.props.handleDisplay(this.props.name);
     }
   };
@@ -36,7 +39,10 @@ export default class DrumPad extends React.Component {
 
     return (
       <div className="drum-pad" onClick={this.handleClick} id={`b-${text}`}>
-        {text}
+        <AwesomeButton type="primary" size="large">
+          {text}
+        </AwesomeButton>
+
         <audio
           src={audio}
           className="clip"
