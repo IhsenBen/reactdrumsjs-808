@@ -133,9 +133,14 @@
     font-size: 0.8em;
     line-height: normal;
     font-family: "Suez One", serif;
-    color: rgb(228, 24, 79);
+    color: #C73A30;
     justify-self: center;
 }
+#certification, #portfolio{
+  text-decoration: none;
+  color: inherit;
+}
+
 .pads {
   grid-area: pads;
   display: flex;

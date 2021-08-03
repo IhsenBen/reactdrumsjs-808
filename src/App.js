@@ -63,7 +63,7 @@ export default class App extends Component {
       // create a method that handle the display of the same of the sound on that component and  call in the above methods
       //call the handle click method on the drumpad div with onClick
       // voila voilou faut just coder tout ça bordel de merde/ i just need to code all this damn it
-      display: "hey!",
+      display: "Click Me  :)",
     };
   }
 
@@ -91,10 +91,10 @@ export default class App extends Component {
           
               <div className="credit">
               
-                <h3>Made By Ihsen Ben Ali</h3>
+                <h3>Made By <br/> Ihsen Ben Ali</h3>
                  <p>for the freeCodeCamp.org Front End Libraries certification</p>
-                 <h3>Portfolio</h3>
-                 <h3>Certification</h3>
+                 <h3> <a href="https://www.ihsen.dev/" id="portfolio">Portfolio</a></h3>
+                 <h3><a href="https://www.freecodecamp.org/certification/fcc66bdef47-a96a-4507-97de-483d45ee0bb6/front-end-libraries" id="certification">Certification</a> </h3>
                  
 
               </div>
