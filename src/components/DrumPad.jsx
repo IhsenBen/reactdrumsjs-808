@@ -32,7 +32,7 @@ export default class DrumPad extends React.Component {
   };
 
   render() {
-    const { text, audio, name } = this.props;
+    const { text, audio } = this.props;
 
     return (
       <div className="drum-pad" onClick={this.handleClick} id={`b-${text}`}>

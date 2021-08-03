@@ -1,6 +1,6 @@
 import "./App.css";
 import DrumPad from "./components/DrumPad";
-import React, { useState, Component } from "react";
+import React, {Component } from "react";
 
 
 const kit = [
