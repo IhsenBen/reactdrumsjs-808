@@ -24,6 +24,7 @@ export default class DrumPad extends React.Component {
     this.props.handleDisplay(this.props.name);
   };
 
+
   handleKeydown = (e) => {
     if (e.keyCode === this.props.text.charCodeAt()) {
       this.audio.play();
@@ -33,13 +34,12 @@ export default class DrumPad extends React.Component {
       this.props.handleDisplay(this.props.name);
     }
   };
-
   render() {
     const { text, audio } = this.props;
 
     return (
       <div className="drum-pad" onClick={this.handleClick} id={`b-${text}`}>
-        <AwesomeButton type="primary" size="large">
+        <AwesomeButton type="secondary" >
           {text}
         </AwesomeButton>
 
