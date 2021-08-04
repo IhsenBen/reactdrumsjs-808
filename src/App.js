@@ -93,8 +93,8 @@ export default class App extends Component {
               
                 <h3>Made By <br/> Ihsen Ben Ali</h3>
                  <p>for the freeCodeCamp.org Front End Libraries certification</p>
-                 <h3> <a href="https://www.ihsen.dev/" id="portfolio">Portfolio</a></h3>
-                 <h3><a href="https://www.freecodecamp.org/certification/fcc66bdef47-a96a-4507-97de-483d45ee0bb6/front-end-libraries" id="certification">Certification</a> </h3>
+                 <h3> <a href="https://www.ihsen.dev/" id="portfolio"  target="_blank" rel="noopener noreferrer">Portfolio</a></h3>
+                 <h3><a href="https://www.freecodecamp.org/certification/fcc66bdef47-a96a-4507-97de-483d45ee0bb6/front-end-libraries"  target="_blank" rel="noopener noreferrer" id="certification">Certification</a> </h3>
                  
 
               </div>
