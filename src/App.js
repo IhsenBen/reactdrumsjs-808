@@ -62,7 +62,7 @@ export default class App extends Component {
       // create a method that handle press play sounds on that component with this e.keyCode === this.props.letter.charCodeAt()
       // create a method that handle the display of the same of the sound on that component and  call in the above methods
       //call the handle click method on the drumpad div with onClick
-      // voila voilou faut just coder tout ça bordel de merde/ i just need to code all this damn it
+      
       display: "Click Me  :)",
     };
   }
