@@ -5,5 +5,5 @@ I made this project with React JS for a freeCodeCamp certificatioin, it's a drum
 I  used a class componenent, states, props and event listners for the logic, and for the style I used css grids, shadows, and an external package for the buttons.
 
 
-# [Live Preview](https://ihsenben.github.io/reactdrumsjs-808/).
+# [Live Preview](https://ihsenben.github.io/reactdrumsjs-808/)
 
