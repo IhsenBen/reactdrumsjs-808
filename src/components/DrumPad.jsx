@@ -4,17 +4,17 @@ import "react-awesome-button/dist/themes/theme-red.css";
 import React from "react";
 
 export default class DrumPad extends React.Component {
-  //pass the event listener to the e function
+
   componentDidMount() {
     document.addEventListener("keydown", this.handleKeydown);
 
     window.focus();
   }
-  // close the event listener
+ 
   componentWillUnmount() {
     document.removeEventListener("keydown", this.handleKeydown);
   }
-  // the above was like an open/close door to pass the key input ( not sure, but I think it's an outdated method)
+
 
   handleClick = () => {
     console.log(this.audio);
