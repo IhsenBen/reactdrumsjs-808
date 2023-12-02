@@ -5,47 +5,47 @@ import "./App.css";
 const kit = [
   {
     key: "Q",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/HT/HT00.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/HT/HT00.WAV?raw=true",
     name: "High Tom",
   },
   {
     key: "W",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/OH/OH75.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/OH/OH75.WAV?raw=true",
     name: "Open Hit Hat",
   },
   {
     key: "E",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/CB/CB.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/CB/CB.WAV?raw=true",
     name: "Cow Bell",
   },
   {
     key: "A",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/HC/HC50.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/HC/HC50.WAV?raw=true",
     name: "Hi Conga ",
   },
   {
     key: "S",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/SD/SD0075.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/SD/SD0075.WAV?raw=true",
     name: "Snare Drum",
   },
   {
     key: "D",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/LT/LT75.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/LT/LT75.WAV?raw=true",
     name: "Low Tom",
   },
   {
     key: "Z",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/CY/CY7500.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/CY/CY7500.WAV?raw=true",
     name: "Cymbal",
   },
   {
     key: "X",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/BD/BD0010.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/sounds/BD/BD0010.WAV?raw=true",
     name: "Bass Drum",
   },
   {
     key: "C",
-    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/sounds/CP/CP.WAV?raw=true",
+    src: "https://github.com/IhsenBen/reactdrumsjs-808/blob/master/src/assets/assets/sounds/CP/CP.WAV?raw=true",
     name: "Hand Clap",
   },
 ];
